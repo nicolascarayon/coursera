@@ -3,10 +3,7 @@
 	angular.module('LunchCheck', []).controller('LunchCheckController', LunchCheckController);
 
 	LunchCheckController.$inject = ['$scope', '$filter'];
-	function LunchCheckController($scope, $filter){
-		// $scope.inputText = "";
-		// $scope.message = "";
-
+	function LunchCheckController($scope){
 		$scope.updateMessage = function () {			
 			if (typeof $scope.inputText == 'undefined') {
 				$scope.message = "Please enter data first";
