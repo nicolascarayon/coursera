@@ -2,7 +2,7 @@
 	'use strict';	
 	angular.module('LunchCheck', []).controller('LunchCheckController', LunchCheckController);
 
-	LunchCheckController.$inject = ['$scope', '$filter'];
+	LunchCheckController.$inject = ['$scope'];
 	function LunchCheckController($scope){
 		$scope.updateMessage = function () {			
 			if (typeof $scope.inputText == 'undefined') {
