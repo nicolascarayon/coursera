@@ -52,6 +52,14 @@ function ShoppingListCheckOffService() {
 	{
 	    name: "Chocolate",
 	    quantity: "5"
+	},
+	{
+	    name: "Sodas",
+	    quantity: "2"
+	},
+	{
+	    name: "Cheese",
+	    quantity: "1"
 	}
 	];
 
