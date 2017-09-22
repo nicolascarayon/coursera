@@ -1,0 +1,23 @@
+  <div class="row">
+    
+    <br/>
+    <a href="#" class="btn btn-primary">Get Back Home</a>
+    <a href="#!/categories" class="btn btn-primary">Get Back to Categories List</a>
+    <br/>
+    <br/>
+
+    <div>   
+      <table class="table table-hover">
+        <tr>
+          <th>Short Name</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+        <tr ng-repeat="item in $ctrl.items">
+          <td>{{item.short_name}}</td>
+          <td>{{item.name}}</td>
+          <td>{{item.description}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>

@@ -1,0 +1,15 @@
+
+<br/>
+<a href="/" class="btn btn-primary">Get Back Home</a>
+<br/>
+<br/>
+
+<div class="col-xs-4" ng-repeat="category in $ctrl.categories">
+   <h4>
+    <a ui-sref="items({categoryId: category.short_name})">
+     ( {{category.short_name}} )
+    </a>
+    {{category.name}}
+  </h4>
+</div>
+
